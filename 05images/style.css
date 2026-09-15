@@ -1,5 +1,5 @@
 body {
-    font-family: "gelica", sans-serif;
+    font-family: "Fraunces", serif;
     margin: 0;
 }
 
@@ -11,7 +11,7 @@ header {
 header span {
     color: #b9d7b3;
     font-size: 1.4rem;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 nav {
