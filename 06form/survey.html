@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Benny Banks">
+    <meta name="description" content="Learn how to care for a pet sugar glider">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>The Glider Guide: Daily Care</title>
+</head>
+
+<body>
+    <header>
+        <span>The Glider Guide <br>
+        How to Care for a Pet Sugar Glider</span>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gettingstarted.html">Getting Started</a></li>
+            <li><a href="nutrition.html">Nutrition</a></li>
+             <li><a href="habitat.html">Habitat</a></li>
+            <li class="active"><a href="survey.html">Survey</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Survey</h1>
+        <form method="get" class="myform" action="thanks.html">
+            <fieldset>
+            <legend>Personal Information</legend>
+            <label>First Name*<input type="text" name="fname" required></label>
+            <label>Last Name*<input type="text" name="lname" required></label>
+            <label>Phone Number<input type="tel" name="phone" placeholder="801-555-1234"></label>
+            <label>Email*<input type="email" name="email" required></label>
+            </fieldset>
+
+            <fieldset>
+            <legend>Do You Have a Sugar Glider?</legend>
+            <label><input type="radio" name="glider" value="yes"> Yes</label>
+            <label><input type="radio" name="glider" value="no"> No, I'm Not Interested</label>
+             <label><input type="radio" name="glider" value="maybe"> No, but I'm Interested</label>
+
+             <label>How many Years of Experience do you have?
+              <select name="years">
+                 <option value="none">Please Select an Option</option>
+                 <option value="0-1">0-1 years</option>
+                 <option value="2-5">2-5 years</option>
+                 <option value="6-10">6-10 years</option>
+                 <option value="11+">11+ years</option>
+              </select>
+             </label>
+            </fieldset>
+
+            <fieldset>
+            <legend>What are Your Glider's Favorite Treats?</legend>
+            <label><input type="checkbox" name="treats" value="mealworms"> Mealworms</label>
+            <label><input type="checkbox" name="treats" value="liveinsects"> Live Insects</label>
+            <label><input type="checkbox" name="treats" value="yogurtdrops"> Yogurt Drops</label>
+            <label><input type="checkbox" name="treats" value="honey"> Honey</label>
+            <label><input type="checkbox" name="treats" value="driedfruit"> Dried Fruit</label>
+            </fieldset>
+
+            <label>Website Feedback
+                <textarea name="feedback"></textarea>
+            </label>
+
+            
+
+
+
+
+
+
+
+
+          <input type="submit" value="Complete Survey">  
+        </form>
+
+
+ 
+    </main>
+
+    <footer>
+        <p>&copy; 2026 &bull; Benny Banks &bull; Web Essentials</p>
+    </footer>
+</body>
+
+</html>
