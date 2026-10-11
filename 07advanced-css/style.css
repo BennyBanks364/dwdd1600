@@ -88,6 +88,10 @@ nav li.active a {
 nav li a:hover {
     color: #f5f1e8;
 }
+    nav {
+    display: flex;
+}
+
 
 
 } /* large screen end */
