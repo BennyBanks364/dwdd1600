@@ -88,8 +88,12 @@ nav li.active a {
 nav li a:hover {
     color: #f5f1e8;
 }
-nav, nav ul {
+nav {
 display: flex;
+}
+
+nav ul {
+    display: flex;
 }
 
 
@@ -299,4 +303,12 @@ header, nav, main, footer {
     width: 100%;
     height: auto;
     display: block;
+}
+
+header {
+    display: flex;
+}
+
+.gallery {
+    display: flex;
 }
